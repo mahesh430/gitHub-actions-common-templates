@@ -1,6 +1,6 @@
 name: terraform init
 on: 
- workflow_dispatch:
+ workflow_call:
 jobs:
  terraform-init:
   name: terraform init
