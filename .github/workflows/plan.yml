@@ -1,6 +1,6 @@
 name: terraform plan
 on: 
- workflow_dispatch:
+ workflow_call:
 jobs:
  terraform-plan:
   name: terraform plan
