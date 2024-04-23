@@ -1,0 +1,10 @@
+name: terraform init
+on: 
+ workflow_dispatch:
+jobs:
+ terraform-init:
+  name: terraform init
+  runs-on: ubuntu-latest
+  steps:
+    - name: terraform init
+      run: terraform init
